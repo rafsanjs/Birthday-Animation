@@ -31,9 +31,9 @@
   },
   "homepage": "https://github.com/AnshumanMahato/Happy-Birthday-Card#readme",
   "devDependencies": {
-    "@parcel/packager-raw-url": "^2.6.2",
-    "@parcel/transformer-sass": "^2.6.2",
-    "@parcel/transformer-webmanifest": "^2.6.2",
+    "@parcel/packager-raw-url": "^2.16.4",
+"@parcel/transformer-sass": "^2.16.4",
+"@parcel/transformer-webmanifest": "^2.16.4",
     "parcel": "^2.16.4",
     "sass": "^1.53.0"
   },
