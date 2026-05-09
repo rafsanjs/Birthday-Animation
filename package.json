@@ -10,11 +10,11 @@
   "browserslist": "last 10 versions, not dead",
   "scripts": {
     "watch:parcel": "parcel src/index.html",
-    "build:parcel": "parcel build src/index.html",
+    "build:parcel": "parcel build index.html",
+    "build": "npm run build:parcel",
     "init-index-local": "node builder/init.js --local",
     "init-index-remote": "node builder/init.js --remote",
-    "watch": "npm-run-all init-index-local watch:parcel",
-    "build:parcel": "parcel build index.html"
+    "watch": "npm-run-all init-index-local watch:parcel"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,7 @@
     "@parcel/packager-raw-url": "^2.6.2",
     "@parcel/transformer-sass": "^2.6.2",
     "@parcel/transformer-webmanifest": "^2.6.2",
-    "parcel": "^2.6.2",
+    "parcel": "^2.16.4",
     "sass": "^1.53.0"
   },
   "dependencies": {
