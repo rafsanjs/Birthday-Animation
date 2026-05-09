@@ -127,9 +127,10 @@ export const animate = function () {
       giftroom.style.display = "none";
       transition(flash);
 
+      // keep existing visual effects, delay the redirect by ~2.5s
       setTimeout(() => {
         window.location.href = "https://rafsanjs.github.io/Happy-Birthday-Suba/";
-      }, 1500);
+      }, 2500);
     }
   });
 };
