@@ -5,7 +5,7 @@
 
 [build.environment]
   NAME = "Suba"
-  PIC = "https://example.com/sample-pic.jpeg"  # Replace with actual image URL
-  # SCROLL_MSG = "https://telegra.ph/..."  # Optional
-  # HBD_MSG = "Happy Birthday!"  # Optional
+  PIC = "https://telegra.ph/file/cab24ce49882fbae39a13.png"
+  # SCROLL_MSG = "https://telegra.ph/..."  # Optional: Telegraph article URL for scroll text
+  # HBD_MSG = "Happy Birthday!"  # Optional: Custom message
   # NICKNAME = "Suba"  # Optional
