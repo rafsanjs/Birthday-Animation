@@ -3,15 +3,14 @@
   "version": "3.0.2",
   "description": "A birthday card template",
   "main": "index.js",
-  "default": "index.html",
   "targets": {
     "main": false
   },
   "browserslist": "last 10 versions, not dead",
   "scripts": {
     "watch:parcel": "parcel src/index.html",
-    "build:parcel": "parcel build index.html",
-    "build": "npm run build:parcel",
+    "build:parcel": "parcel build src/index.html",
+    "build": "npm run init-index-remote && npm run build:parcel",
     "init-index-local": "node builder/init.js --local",
     "init-index-remote": "node builder/init.js --remote",
     "watch": "npm-run-all init-index-local watch:parcel"
