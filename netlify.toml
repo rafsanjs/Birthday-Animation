@@ -3,6 +3,9 @@
   publish = "./dist/"
   command = "npm run build"
 
-[template.environment]
-  NAME = "enter Name of the receiver"
-  PIC = "enter web url of the receiver's image"
+[build.environment]
+  NAME = "Suba"
+  PIC = "https://example.com/sample-pic.jpeg"  # Replace with actual image URL
+  # SCROLL_MSG = "https://telegra.ph/..."  # Optional
+  # HBD_MSG = "Happy Birthday!"  # Optional
+  # NICKNAME = "Suba"  # Optional
